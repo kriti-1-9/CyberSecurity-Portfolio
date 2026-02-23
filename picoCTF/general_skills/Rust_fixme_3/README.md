@@ -34,10 +34,13 @@ The failing line:
 
 ```rust
 std::slice::from_raw_parts(decrypted_ptr, decrypted_len);
+```
 
 2. Root Cause
 
+```
 std::slice::from_raw_parts operates on raw pointers.
+```
 
 Raw pointers:
 
