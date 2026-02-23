@@ -1,4 +1,4 @@
-🛡️ Cybersecurity Portfolio
+# 🛡️ Cybersecurity Portfolio
 
 Hi — I’m a cybersecurity enthusiast focused on practical security engineering, digital forensics, and automation.
 
@@ -6,7 +6,7 @@ This repository documents my hands-on work solving Capture The Flag (CTF) challe
 
 My goal is not just solving challenges — but understanding the underlying systems and engineering resilient solutions.
 
-🔍 Focus Areas
+## 🔍 Focus Areas
 
 🧠 Digital Forensics (Disk images, logs, file carving)
 
@@ -35,87 +35,87 @@ cybersecurity-portfolio/
 │  
 └── automation_scripts/  
 
-🧪 Highlighted Projects
-🔥 Flag in Flame (Log Forensics / Data Carving)
+## 🧪 Highlighted Projects
+### 🔥 Flag in Flame (Log Forensics / Data Carving)
 
-Identified Base64-encoded payload hidden in logs
+- Identified Base64-encoded payload hidden in logs
 
-Reconstructed PNG from decoded binary
+- Reconstructed PNG from decoded binary
 
-Carved embedded Zlib stream using binwalk
+- Carved embedded Zlib stream using binwalk
 
-Wrote a custom Python streaming decompression script to recover truncated compressed data
+- Wrote a custom Python streaming decompression script to recover truncated compressed data
 
-Demonstrated resilient recovery beyond standard CLI tools
+- Demonstrated resilient recovery beyond standard CLI tools
 
-💾 Disk Image Forensics
+### 💾 Disk Image Forensics
 
-Analyzed FAT32 raw disk image (.dd)
+- Analyzed FAT32 raw disk image (.dd)
 
-Investigated partition structure
+- Investigated partition structure
 
-Understood deleted file remnants
+- Understood deleted file remnants
 
-Extracted flag directly from raw disk sectors using strings
+- Extracted flag directly from raw disk sectors using strings
 
-Applied forensic methodology over manual browsing
+- Applied forensic methodology over manual browsing
 
-🖼️ Corrupted File (Steganography)
+### 🖼️ Corrupted File (Steganography)
 
-Inspected metadata with exiftool
+- Inspected metadata with exiftool
 
-Decoded Base64-embedded password
+- Decoded Base64-embedded password
 
-Extracted hidden data using steghide
+- Extracted hidden data using steghide
 
-Recovered embedded flag from image container
+- Recovered embedded flag from image container
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
-Kali Linux
+- Kali Linux
 
-binwalk
+- binwalk
 
-exiftool
+- exiftool
 
-steghide
+- steghide
 
-zlib (Python)
+- zlib (Python)
 
-strings
+- strings
 
-grep
+- grep
 
-Bash scripting
+- Bash scripting
 
-Python scripting
+- Python scripting
 
-🧠 Engineering Philosophy
+## 🧠 Engineering Philosophy
 
 I approach security challenges in layers:
 
-Identify surface encoding
+- Identify surface encoding
 
-Verify file signatures (magic bytes)
+- Verify file signatures (magic bytes)
 
-Carve embedded data
+- Carve embedded data
 
-Handle corruption manually when tools fail
+- Handle corruption manually when tools fail
 
-Automate recovery with scripting when necessary
+- Automate recovery with scripting when necessary
 
-Understanding why something works is more important than just making it work.
+- Understanding why something works is more important than just making it work.
 
-🚀 Ongoing Goals
+## 🚀 Ongoing Goals
 
-Improve low-level file format understanding
+- Improve low-level file format understanding
 
-Build reusable forensic automation tools
+- Build reusable forensic automation tools
 
-Strengthen reverse engineering skills
+- Strengthen reverse engineering skills
 
-Develop production-ready security scripting habits
+- Develop production-ready security scripting habits
 
-📌 Note
+## 📌 Note
 
 All writeups are for educational purposes and reflect my personal learning journey in cybersecurity and digital forensics.
