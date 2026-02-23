@@ -18,22 +18,22 @@ My goal is not just solving challenges — but understanding the underlying syst
 
 🧬 Binary & Encoded Data Analysis
 
-📁 Repository Structure
-cybersecurity-portfolio/
-│
-├── picoCTF/
-│   ├── Forensics/
-│   │   ├── Corrupted_file/
-│   │   ├── Disk_1/
-│   │   ├── Flag_in_Flame/
-│   │   ├── Hidden_in_plain_sight/
-│   │   └── Riddle_Registry/
-│
-├── general_skills/
-│
-├── Leetcode_bash_solutions/
-│
-└── automation_scripts/
+📁 Repository Structure  
+cybersecurity-portfolio/  
+│  
+├── picoCTF/  
+│   ├── Forensics/  
+│   │   ├── Corrupted_file/  
+│   │   ├── Disk_1/  
+│   │   ├── Flag_in_Flame/  
+│   │   ├── Hidden_in_plain_sight/  
+│   │   └── Riddle_Registry/  
+│  
+├── general_skills/  
+│  
+├── Leetcode_bash_solutions/  
+│  
+└── automation_scripts/  
 
 🧪 Highlighted Projects
 🔥 Flag in Flame (Log Forensics / Data Carving)
