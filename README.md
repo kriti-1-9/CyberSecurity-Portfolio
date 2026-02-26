@@ -1,121 +1,85 @@
-# 🛡️ Cybersecurity Portfolio
+# 🚀 Cybersecurity Portfolio
+## 👨‍💻 About Me
 
-Hi — I’m a cybersecurity enthusiast focused on practical security engineering, digital forensics, and automation.
+I am a cybersecurity learner and practitioner focused on building strong fundamentals in offensive security, web exploitation, and system-level analysis.
 
-This repository documents my hands-on work solving Capture The Flag (CTF) challenges, building recovery scripts, and strengthening low-level security concepts through applied practice.
+This repository documents my hands-on journey — not just solutions, but structured problem-solving, methodology, and technical growth.
 
-My goal is not just solving challenges — but understanding the underlying systems and engineering resilient solutions.
+My goal is to think like an attacker, analyze like a defender, and build like an engineer.
 
-## 🔍 Focus Areas
+## 🎯 What I Am Working On
+I actively practice:
+- Web application exploitation
+- Memory analysis and forensic investigation
+- Secure coding principles
+- Automation for security workflows
+- Command-line proficiency (Linux environment)
+- Capture The Flag (CTF) challenges
+- Algorithmic problem solving for logical clarity
 
-🧠 Digital Forensics (Disk images, logs, file carving)
+Every exercise is treated as a real-world simulation, focusing on:
+- Reconnaissance
+- Root cause analysis
+- Exploitation logic
+- Tool selection
+- Clean documentation
 
-🔐 Steganography & Data Recovery
+## 🛠️ How I Approach Problems
+I follow a structured methodology:
 
-🧰 Security Tooling & Automation (Python + Bash)
+### 1️⃣ Recon First
+Understanding the system before interacting with it.
+Mapping endpoints, observing behavior, identifying attack surfaces.
 
-📊 Log Analysis & Incident Investigation
+### 2️⃣ Minimal Assumptions
+I avoid overcomplicating solutions.
+Simple tools like strings, grep, and shell utilities are often more powerful than heavy scripting.
 
-🧬 Binary & Encoded Data Analysis
+### 3️⃣ Automation Where Needed
+If a task is repeatable, I automate it using Python or Bash.
+Efficiency and reproducibility are key.
 
-📁 Repository Structure  
-cybersecurity-portfolio/  
-│  
-├── picoCTF/  
-│   ├── Forensics/  
-│   │   ├── Corrupted_file/  
-│   │   ├── Disk_1/  
-│   │   ├── Flag_in_Flame/  
-│   │   ├── Hidden_in_plain_sight/  
-│   │   └── Riddle_Registry/  
-│  
-├── general_skills/  
-│  
-├── Leetcode_bash_solutions/  
-│  
-└── automation_scripts/  
+### 4️⃣ Documentation Discipline
+Each challenge includes:
+- Clear reasoning
+- Step-by-step breakdown
+- Lessons learned
+- Technical takeaways
+Because security is not just about solving — it's about understanding.
 
-## 🧪 Highlighted Projects
-### 🔥 Flag in Flame (Log Forensics / Data Carving)
+## 🧠 Core Skills Being Developed
+- Linux system navigation and analysis
+- Web exploitation fundamentals
+- Memory inspection techniques
+- Regex and pattern extraction
+- Debug endpoint analysis
+- Input validation logic
+- Secure development mindset
 
-- Identified Base64-encoded payload hidden in logs
+## 📈 Growth Philosophy
+This repository reflects progression — from basic vulnerabilities to deeper system behavior analysis.
+Security is not about memorizing exploits.
 
-- Reconstructed PNG from decoded binary
+It’s about:
+- Recognizing patterns
+- Understanding system behavior
+- Thinking critically under constraints
+- Maintaining ethical boundaries
 
-- Carved embedded Zlib stream using binwalk
+## 🔐 Ethics & Responsibility
+All work documented here is performed in:
+- Controlled lab environments
+- CTF platforms
+- Legal and authorized systems only
+Security without ethics is exploitation.
+Security with ethics is engineering.
 
-- Wrote a custom Python streaming decompression script to recover truncated compressed data
+## 📌 Ongoing Focus Areas
 
-- Demonstrated resilient recovery beyond standard CLI tools
+- Advanced web vulnerabilities
+- Authentication mechanisms and session handling
+- Secure coding practices
+- Memory forensics fundamentals
+- Practical automation in offensive security
 
-### 💾 Disk Image Forensics
-
-- Analyzed FAT32 raw disk image (.dd)
-
-- Investigated partition structure
-
-- Understood deleted file remnants
-
-- Extracted flag directly from raw disk sectors using strings
-
-- Applied forensic methodology over manual browsing
-
-### 🖼️ Corrupted File (Steganography)
-
-- Inspected metadata with exiftool
-
-- Decoded Base64-embedded password
-
-- Extracted hidden data using steghide
-
-- Recovered embedded flag from image container
-
-## 🛠️ Tools & Technologies
-
-- Kali Linux
-
-- binwalk
-
-- exiftool
-
-- steghide
-
-- zlib (Python)
-
-- strings
-
-- grep
-
-- Bash scripting
-
-- Python scripting
-
-## 🧠 Engineering Philosophy
-
-I approach security challenges in layers:
-
-- Identify surface encoding
-
-- Verify file signatures (magic bytes)
-
-- Carve embedded data
-
-- Handle corruption manually when tools fail
-
-- Automate recovery with scripting when necessary
-
-- Understanding why something works is more important than just making it work.
-
-## 🚀 Ongoing Goals
-
-- Improve low-level file format understanding
-
-- Build reusable forensic automation tools
-
-- Strengthen reverse engineering skills
-
-- Develop production-ready security scripting habits
-
-## 📌 Note
-
-All writeups are for educational purposes and reflect my personal learning journey in cybersecurity and digital forensics.
+If you're reviewing this repository, you're not just seeing solutions — you're seeing the evolution of a cybersecurity mindset.
