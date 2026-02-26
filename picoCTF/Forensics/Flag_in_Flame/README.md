@@ -1,6 +1,4 @@
 # Challenge: Flag in Flame (Log Forensics)
-**Date:** Monday, February 16, 2026  
-**Category:** Forensics / Data Carving  
 
 ## Problem Statement
 The SOC team discovered a suspiciously large log file after a recent breach. The file contained an enormous block of encoded text instead of typical log entries. The mission was to uncover the hidden data within this unusual log.
