@@ -24,59 +24,45 @@ elif re.match(r"CROWD.*", line):
     crowd = input('Crowd: ')
     song_lines[lip] = 'Crowd: ' + crowd
     lip += 1
-
-The user input is directly inserted into song_lines without validation.
+```
+The user input is directly inserted into `song_lines` without validation.
 
 Later, each line is split using:
-
+```python
 for line in song_lines[lip].split(';'):
+```
+This means we can inject additional commands using `;`.
 
-This means we can inject additional commands using ;.
-
-Exploitation
-
+## Exploitation
 If we provide this as input:
-
+```
 ;RETURN 0
-
+```
 It gets split into:
-
-(empty)
-
-RETURN 0
-
+- (empty)
+- RETURN 0
 The interpreter processes:
-
+```python
 lip = 0
-
-This redirects execution to the beginning of the script, where secret_intro (containing the flag) is located.
+```
+This redirects execution to the beginning of the script, where `secret_intro` (containing the flag) is located.
 
 As a result, the flag is printed.
 
-Payload
+## Payload
+```
 ;RETURN 0
-Why This Works
+```
 
+## Why This Works
 This is a control flow injection vulnerability caused by:
+- Unsanitized user input
+- Custom DSL interpreter
+- Support for `;` command chaining
+- Direct instruction pointer manipulation via `RETURN`
 
-Unsanitized user input
-
-Custom DSL interpreter
-
-Support for ; command chaining
-
-Direct instruction pointer manipulation via RETURN
-
-Concepts Learned
-
-Custom interpreter exploitation
-
-Control flow manipulation
-
-Command injection in DSL environments
-
-Logic vulnerability analysis
-
-Solution Script
-
-See solution.py.
+## Concepts Learned
+- Custom interpreter exploitation
+- Control flow manipulation
+- Command injection in DSL environments
+- Logic vulnerability analysis
